@@ -7,8 +7,8 @@ console.log('JS OK!')
 // stampa un messaggio appropriato sull’esito
 // del controllo.
 
-const mailRequest = prompt('insert mail')
-const mail = ["pirla@gmail.com, clown@gmail.com, giurato@gmail.com"]
+// const mailRequest = prompt('insert mail')
+// const mail = ["pirla@gmail.com, clown@gmail.com, giurato@gmail.com"]
 
 
 
@@ -24,14 +24,19 @@ const mail = ["pirla@gmail.com, clown@gmail.com, giurato@gmail.com"]
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-const Player = 
-const Computer = 
+// const player = Math.floor((Math.random() * 6) + 1);
+// const computer = Math.floor((Math.random() * 6) + 1);
+
+// console.log('Punteggio Player: ' + player);
+// console.log('Punteggio Computer: ' + computer);
 
 
-if (x > y) {
+// if (computer > player) {
+//     console.log('vince Computer')
 
-    console.log('vince Player')
+// } else if (computer < player) {
+//     console.log('vince Player');
 
-} else {
-    console.log('vince Computer')
-}
+// } else {
+//     console.log('Parità');
+// }
