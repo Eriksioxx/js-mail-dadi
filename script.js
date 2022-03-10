@@ -28,30 +28,6 @@ if (mailValid === false) {
     console.log('Mail Inesistente!');
 }
 
-// ****************VERSIONE INPUT********************
-
-// let mail = ["pirla@gmail.com", "clown@gmail.com", "giurato@gmail.com"];
-
-// document.getElementById('emailButton').addEventListener('click',
-
-//     function () {
-
-//         let mailValid = false;
-//         for (let i = 0; i < mail.length && mailValid === false; i++) {
-
-//             if (mailRequest === mail[i]) {
-//                 console.log('Mail Verificata!');
-//                 mailValid = true;
-//             }
-//         }
-//         if (mailValid === false) {
-//             console.log('Mail Inesistente!');
-//         }
-//     }
-
-// DA FINIREEEEEEEEEEEEEEEE
-
-
 
 // esercizio 2
 
@@ -60,19 +36,19 @@ if (mailValid === false) {
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-// const player = Math.floor((Math.random() * 6) + 1);
-// const computer = Math.floor((Math.random() * 6) + 1);
+const player = Math.floor((Math.random() * 6) + 1);
+const computer = Math.floor((Math.random() * 6) + 1);
 
-// console.log('Punteggio Player: ' + player);
-// console.log('Punteggio Computer: ' + computer);
+console.log('Punteggio Player: ' + player);
+console.log('Punteggio Computer: ' + computer);
 
 
-// if (computer > player) {
-//     console.log('vince Computer')
+if (computer > player) {
+    console.log('vince Computer')
 
-// } else if (computer < player) {
-//     console.log('vince Player');
+} else if (computer < player) {
+    console.log('vince Player');
 
-// } else {
-//     console.log('Parità');
-// }
+} else {
+    console.log('Parità');
+}
