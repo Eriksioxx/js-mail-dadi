@@ -7,13 +7,47 @@ console.log('JS OK!')
 // stampa un messaggio appropriato sull’esito
 // del controllo.
 
-// const mailRequest = prompt('insert mail')
-// const mail = ["pirla@gmail.com, clown@gmail.com, giurato@gmail.com"]
+// **********************VERSIONE PROMPT********************
+
+let mailRequest = prompt('insert mail').toLowerCase();
+let mail = ["pirla@gmail.com", "clown@gmail.com", "giurato@gmail.com"];
+
+console.log('La tua mail è: ' + mailRequest);
 
 
+let mailValid = false;
 
+for (let i = 0; i < mail.length && mailValid === false; i++) {
 
+    if (mailRequest === mail[i]) {
+        console.log('Mail Verificata!');
+        mailValid = true;
+    }
+}
+if (mailValid === false) {
+    console.log('Mail Inesistente!');
+}
 
+// ****************VERSIONE INPUT********************
+
+// let mail = ["pirla@gmail.com", "clown@gmail.com", "giurato@gmail.com"];
+
+// document.getElementById('emailButton').addEventListener('click',
+
+//     function () {
+
+//         let mailValid = false;
+//         for (let i = 0; i < mail.length && mailValid === false; i++) {
+
+//             if (mailRequest === mail[i]) {
+//                 console.log('Mail Verificata!');
+//                 mailValid = true;
+//             }
+//         }
+//         if (mailValid === false) {
+//             console.log('Mail Inesistente!');
+//         }
+//     }
 
 
 
